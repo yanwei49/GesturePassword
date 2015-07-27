@@ -14,6 +14,7 @@
 		779AA3C31B627AFB00ED9BDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 779AA3C11B627AFB00ED9BDF /* LaunchScreen.storyboard */; };
 		779AA3CE1B627AFB00ED9BDF /* GesturePasswordTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3CD1B627AFB00ED9BDF /* GesturePasswordTests.swift */; };
 		779AA3D91B627AFB00ED9BDF /* GesturePasswordUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3D81B627AFB00ED9BDF /* GesturePasswordUITests.swift */; };
+		779AA3E71B628CDF00ED9BDF /* PasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779AA3E61B628CDF00ED9BDF /* PasswordView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		779AA3D41B627AFB00ED9BDF /* GesturePasswordUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GesturePasswordUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		779AA3D81B627AFB00ED9BDF /* GesturePasswordUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GesturePasswordUITests.swift; sourceTree = "<group>"; };
 		779AA3DA1B627AFB00ED9BDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		779AA3E61B628CDF00ED9BDF /* PasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PasswordView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				779AA3B81B627AFB00ED9BDF /* AppDelegate.swift */,
 				779AA3BA1B627AFB00ED9BDF /* ViewController.swift */,
+				779AA3E61B628CDF00ED9BDF /* PasswordView.swift */,
 				779AA3BC1B627AFB00ED9BDF /* Main.storyboard */,
 				779AA3BF1B627AFB00ED9BDF /* Assets.xcassets */,
 				779AA3C11B627AFB00ED9BDF /* LaunchScreen.storyboard */,
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				779AA3BB1B627AFB00ED9BDF /* ViewController.swift in Sources */,
+				779AA3E71B628CDF00ED9BDF /* PasswordView.swift in Sources */,
 				779AA3B91B627AFB00ED9BDF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
